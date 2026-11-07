@@ -1,0 +1,40 @@
+# ===== 根目录忽略规则（前后端共用一个仓库）=====
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 后端：Maven 构建产物与日志
+target/
+*.class
+*.log
+hs_err_pid*
+logs/
+
+# 前端：依赖与构建缓存
+node_modules/
+dist/
+.umi
+.umi-production
+.umi-test
+.eslintcache
+coverage/
+
+# 本地私有配置（含真实密钥，绝不提交）
+**/application-dev.yml
+*.local.yml
+.env
+.env.local
+
+# 临时文件
+*.tmp
+*.bak
+~$*
