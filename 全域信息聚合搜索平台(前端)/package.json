@@ -1,8 +1,8 @@
 {
-  "name": "yupi-antd-frontend-init",
+  "name": "unified-search-web",
   "version": "6.0.0",
   "private": true,
-  "description": "An out-of-box UI solution for enterprise applications",
+  "description": "全域信息聚合搜索平台前端",
   "scripts": {
     "analyze": "cross-env ANALYZE=1 max build",
     "build": "max build",
