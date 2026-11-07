@@ -1,0 +1,8 @@
+# 本地开发配置示例
+# 用法：复制本文件为 application-dev.yml，按自己的 MySQL 环境修改（application-dev.yml 已被 .gitignore 忽略，不会被提交）
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/search
+    username: root
+    password: 你的数据库密码
